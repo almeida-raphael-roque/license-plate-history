@@ -1,0 +1,19 @@
+pontos notáveis
+
+- ele não pega os ativos do dia anterior (claro, porque aí vão ser as novas)
+
+- se um conjunto é cancelado todas as placas são canceladas? pq ele pega assim
+
+- data de ativações é o início da vigência do conjunto 
+
+- é estranho pq o certo é cancelar para passar pra outra empresa, e isso no código entra como reativação (ao invés de ser migração)
+
+! não dá pra ficar imaginando mto tb, tenho que tentar na prática
+
+- uma placa pode ter vários benefícios, que tem coverages associados, mas quero por placa (porém placas tão ligadas a benefícios)
+
+- a solução é agrupar uma lista de status_benefício da mesma placa, se tiver 2 ATIVOS e 1 CANCELADO ela não está CANCELADA, ela está ATIVA
+
+- focar na date_registration
+
+! o ideal é focar na análise ATIVOS CANCELADOS olhando a empresa e a data
