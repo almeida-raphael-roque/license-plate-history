@@ -17,3 +17,4 @@ pontos notáveis
 - focar na date_registration
 
 ! o ideal é focar na análise ATIVOS CANCELADOS olhando a empresa e a data
+! talvez fazer um status e um status_movimentação na mesma linha
